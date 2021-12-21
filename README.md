@@ -1,2 +1,3 @@
 # lottery_combinations
-Generates a list of lottery combinations based on the number of balls drawn and the number of balls in the pool.
+Generates a list of lottery combinations based on the number of balls drawn and the number of balls in the pool.  Currently works for very low input numbers (for testing I am using 3 regular balls drawn from a pool of 10 numbers and 1 special ball drawn (mega ball, power ball, etc.) from a pool of 10 numbers).  For larger, more realistic inputs
+I receive a MemoryError.  I am currently running a 32 bit version of Python and while changing to a 64 bit version may help, the direction I will take is to create a branch and do some experimentation to see if I can code this in a more memory efficient way.
